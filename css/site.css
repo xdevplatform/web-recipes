@@ -1,0 +1,241 @@
+/*!
+ * Start Bootstrap - Scrolling Nav HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 1.6em;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+p {
+	margin-bottom: 1.2em;
+}
+
+pre {
+	font-size: .7em;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #efefef;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav>.active>a.navbar-brand {
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav>.active>a.dropdown-toggle {
+	background-color: transparent;
+	padding-left: 8px;
+}
+
+.section {
+    height: 100%;
+ 	padding-top: 70px;
+    xborder: 1px solid #cfcfcf;
+}
+
+.section div.container {
+	padding: 0% 3%;
+}
+
+.odd-section {
+    background: #fff;
+}
+
+.even-section {
+    background: #eee;
+}
+
+.intro-section {
+ 	padding-top: 120px;
+}
+
+.example-section {
+	width: 100%;
+}
+
+.example {
+	background-size: 100%;
+	width: 100%;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.example-inset {
+	background-color: white; 
+	opacity: .95; 
+	padding: 2.5%; 
+	border: 2px solid gainsboro;
+}
+
+.example div h3 {
+	line-height: 1.2em;
+	margin-bottom: 1.1em;
+}	
+
+.example img {
+	width: 100%;
+	margin: 0px 0px 10px 0px;
+}
+
+.example-background {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	right: 0;
+	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+	z-index: -1;
+	opacity: 1;
+}
+
+.walkthrough-body {
+	xborder: 1px solid red;
+ 	min-height: 80%;
+ 	margin-bottom: 20px;
+}
+
+.walkthrough-nav {
+	border-top: 1px solid #cfcfcf;
+	padding-top: 20px;
+}
+
+.carousel { 
+	width: 100%;
+	height: 500px;
+}
+
+.carousel-control {
+	width: 0%;
+}
+
+.carousel .item {
+}
+
+.carousel-control.left {
+	background-image: None;
+}
+
+.carousel-control.right {
+	background-image: None;
+}
+
+.glyphicon-chevron-left {
+    color: #000;
+    text-shadow: 1px 1px 1px #ccc;
+}
+
+.glyphicon-chevron-right {
+    color: #000;
+    text-shadow: 1px 1px 1px #ccc;
+}
+
+.fa-twitter {
+	color: #55acee;
+}
+
+.highlight {
+	padding: 9px 14px;
+	margin-bottom: 14px;
+	background-color: #f7f7f9;
+	border: 1px solid #e1e1e8;
+	border-radius: 4px;
+}
+
+.code {
+	padding: 10px 70px 10px 10px;
+}
+ 
+.zero-clipboard {
+	position: relative;
+	display: block;
+}
+
+.btn-clipboard-hover {
+	color: #fff;
+	background-color: #563d7c;
+	border-color: #563d7c;
+}
+
+.btn-clipboard {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 10;
+	display: block;
+	padding: 5px 8px;
+	font-size: 12px;
+	color: #777;
+	cursor: pointer;
+	background-color: #fff;
+	border: 1px solid #e1e1e8;
+	border-radius: 0 4px 0 4px;
+}
+
+@media(min-width:767px) {
+
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+    
+    .navbar img {
+    	height: 50px;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+@media(max-width:766px) {
+
+	body {
+	    width: 100%;
+	    height: 100%;
+	    font-size: 1.3em;
+	}
+	
+	h1 {
+	    font-size: 1.6em;
+	}
+	
+	.section {
+	    height: 100%;
+	    padding-top: 50px;
+	}
+	
+	.example-section {
+		display: table;
+		width: 100%;
+		min-height: 50%;
+		height: 50%;
+		z-index: 0;
+	}
+
+	.example-text {
+		font-family: "Average";
+		font-size: 1.1em;
+		line-height: 130%;
+		padding: 2%;
+		display: table-cell;
+		vertical-align: middle;
+	}
+}

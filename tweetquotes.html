@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+	<link rel="icon shortcut" href="images/bird.ico">
+
+    <title>#Recipe: Tweet Quotes</title>
+
+    <link href="css/bootstrap-cerulean.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/site.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+            	<img src="images/bird_white.png" class="navbar-brand">
+	          <a class="navbar-brand page-scroll" href="#page-top"><span class="hidden-sm hidden-xs">#Recipe:</span> Tweet Quotes</a>
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#example">Example</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#walkthrough">Walkthrough</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#usecases">Use Cases</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="pull-right">
+		            	<ul class="nav navbar-nav">
+					        <li class="dropdown">
+					          <a href="#" class="dropdown-toggle hidden-sm hidden-xs" data-toggle="dropdown">Recipes <i class="fa fa-caret-down"></i></a>
+					          <ul class="dropdown-menu" role="menu">
+					            <li><a href="campaigns.html">#Recipe: Hashtag Campaign</a></li>
+					            <li><a href="tweetquotes.html">#Recipe: Tweet Quotes</a></li>
+					          </ul>
+					        </li>
+		            	</ul>
+                    </li>
+			      </ul>
+
+            </div>
+            
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <section id="intro" class="section odd-section intro-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h1>
+                    	<img src="images/bird.png" height="30" style="margin-top: -8px;">
+                    	#Recipe: Tweet Quotes
+                	</h1>
+                    <p class="lead">
+                    	Give your readers timely, relevant quotes to share on Twitter. 
+                	</p>
+                	<p>
+                		Tweet quotes enable your readers to share content on your behalf, increasing your distribution on Twitter.
+                		And by adding Twitter Cards you site, you offer a more compelling experience to Twitter users, as well as
+                		gain insight and analytics to help optimize your conversion and traffic. 
+                    </p>
+                    <p>
+                    	This recipe can be built into your website or CMS system in under 10 minutes. 
+                    	It uses and free fully supported Twitter tools, including:
+                    	<ul>
+	                    	<li><a href="https://dev.twitter.com/web/intents" target="_target">Web Intents</a>
+	                    	<li><a href="https://dev.twitter.com/cards/overview" target="_target">Twitter Cards</a>
+	                    	<li><a href="https://analytics.twitter.com" target="_target">Twitter Analytics</a>
+                    	</ul>
+                    </p>
+                    <p>
+                    	The code and the how-to for you to get started (including this recipe) is all below.  
+                    </p>
+                </div>
+                <div class="col-lg-4">
+	                <div class="thumbnail hidden-xs hidden-sm hidden-md" style="margin-top: 70px;">
+	                	<a href="http://www.latimes.com/sports/lakers/la-sp-kobe-bryant-lakers-20141028-story.html#page=1" class="btn btn-default" role="button" target="_target">
+	                		<img src="images/tweetquotes/example_latimes_.png" width="100%">
+                		</a>
+	            	</div>
+                </div>
+            </div>
+			<center>
+            	<a class="btn btn-lg btn-primary page-scroll" href="#example">See the example &nbsp;<i class="fa fa-chevron-down fa-2 "></i></a>
+        	</center>
+        </div>
+    </section>
+
+    <section id="example" class="section even-section example-section">
+        <div class="container">
+        
+            <h1 style="margin-bottom: .5em;">
+	        	<img src="images/bird.png" height="30">
+            	Example
+        	</h1>
+
+			<div class="example" style="background-image: url(images/tweetquotes/market.jpg);">
+				<div class="example-inset">
+            		<h3>
+            			Thanks for visiting Seattle's Public Market!
+        			</h3>
+	                <div class="row">
+	                	<div class="col-sm-6">
+                			<img src='images/tweetquotes/market_inset.jpg'> 
+​	                	</div>
+	                	<div class="col-sm-6">
+                			We would appreciate you sharing the word! Choose a pre-composed tweet below to tell your friends and followers.
+	                		<hr>
+                			<a href='javascript:window.open("https://twitter.com/intent/tweet?text=My%20favorite%20winter%20is%20a%20summer%20in%20Seattle!&url=http%3A%2F%2Fvisitseattle.org%2F&via=CityofSeattle&related=Seahawks%2CSoundersFC", "_target", "width=600, height=350");'><i class="fa fa-twitter"></i>&nbsp;My favorite winter is a summer in Seattle!</a>
+                			<hr>
+                			<a href='javascript:window.open("https://twitter.com/intent/tweet?text=Come%20for%20the%20coffee.%20Stay%20for%20the%20rain.%20Seattle.&url=http%3A%2F%2Fvisitseattle.org%2F&via=CityOfSeattle&related=Seahawks%2CSoundersFC", "_target", "width=600, height=350");'><i class="fa fa-twitter"></i>&nbsp;Come for the coffee. Stay for the rain. Seattle.</a>
+                			<hr>
+                		</div>
+	                </div>
+				</div>
+			</div>
+			<p>
+				<center>
+                <a class="btn btn-lg btn-primary page-scroll" href="#walkthrough">Follow the walkthrough &nbsp;<i class="fa fa-chevron-down fa-2 "></i></a>
+                </center>
+			</p>
+        </div>
+    </section>
+
+    <section id="walkthrough" class="section odd-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="false">
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+
+    <div class="item active">
+      <h1>
+    	<img src="images/bird.png" height="30" style="margin-top: -8px;">
+      	Walkthrough: Overview
+      </h1>
+      <div class="walkthrough-body">
+      
+<div class="row">
+	<div class="col-sm-8">
+		<p class="lead">This section walks through setting up Tweet quotes on your website.</p>
+		<p>The steps are:
+		<ol>
+			<li>Learn about Web Intents
+			<li>Generate a Web Intent
+			<li>Compose a Twitter Card
+			<li>Activate your Twitter Card
+			<li>Optimize performance on Twitter Analytics
+		</ol>
+		<p>
+			Through this walkthrough, you'll also be able to create quote tweet URLs directly from this tutorial.
+		</p>
+	</div>
+	<div class="col-sm-4 hidden-sm hidden-xs">
+		<div class="panel panel-default">
+		  <div class="panel-body">
+		    <img src="images/tweetquotes/example_latimes_.png" width="100%">
+		  </div>
+		</div>
+	</div>
+</div>
+
+	  </div>
+	  <div class="walkthrough-nav">
+			<a class="btn btn-md btn-primary pull-right" href="#carousel-example-generic" role="button" data-slide="next">Step 1: Learn about Web Intents &nbsp;<i class="fa fa-chevron-right fa-2 "></i></a>
+      	</p>
+      </div>
+    </div>
+    
+    <div class="item">
+      <h1>Step 2: Learn about Web Intents</h1>
+      <div class="walkthrough-body">
+<p class="lead">A Web Intent helps readers share your message on Twitter, without ever leaving your site.</p>
+<div class="row">
+	<div class="col-sm-9">
+		<p>A Web Intent is a paramterized URL that, when clicked, pre-populates your message in a tweet. The most popular parameters are:
+			<ul>
+				<li><i><b>text</b></i>. The text/summary quote you want your readers to share.
+				<li><i><b>url</b></i>. The URL of your content on your site.
+				<li><i><b>via</b></i>. The Twitter handle associated with your site.
+				<li><i><b>related</b></i>. A comma separated list of Twitter handles related to your site. 
+			</ul>
+		<p>Below is a sample Web Intent URL:
+	<div class="zero-clipboard">
+		<span class="btn-clipboard copy-button" data-clipboard-text="Copy Me!" data-toggle="tooltip" data-placement="top" title="Copied">Copy</span>
+	</div>
+<pre class="code">https://twitter.com/intent/tweet?text=This%is%20a%20tweet%20quote&url=http%3A%2F%2Fdev.twitter.com&via=twitterdev
+</pre>
+		</p>
+		<p>
+		If you want additional customization options or power tips, read more on  
+		<a href="https://dev.twitter.com/web/intents" target="_target">Twitter Web Intents</a>.
+		</p>
+		
+	</div>
+	<div class="col-sm-3 hidden-sm hidden-xs">
+		<div class="panel panel-default">
+		  <div class="panel-body">
+		    <img src="images/tweetquotes/intent.png" width="100%">
+		  </div>
+		</div>
+	</div>
+</div>
+
+	  </div>
+	  <div class="walkthrough-nav">
+			<a class="btn btn-md btn-default hidden-xs" href="#carousel-example-generic" role="button" data-slide="prev"><i class="fa fa-chevron-left fa-2 "></i>&nbsp; Return to Previous</a>
+			<a class="btn btn-md btn-primary pull-right" href="#carousel-example-generic" role="button" data-slide="next">Step 2: Generate a Web Intent &nbsp;<i class="fa fa-chevron-right fa-2 "></i></a>
+      </div>
+    </div>
+    
+    <div class="item">
+      <h1>Step 2: Generate a Web Intent</h1>
+      <div class="walkthrough-body">
+<div class="row">
+	<div class="col-sm-8">
+
+<p class="lead">Use the form below to create the HTML for you.</p>
+
+		<p>
+
+<form class="form-horizontal" role="form">
+  <div class="form-group">
+    <label for="text" class="col-sm-2 control-label">Text</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="text" placeholder="Shared from a tweet quote" value="Shared from a tweet quote">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="url" class="col-sm-2 control-label">URL</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="url" placeholder="http://dev.twitter.com">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="via" class="col-sm-2 control-label">Via</label>
+    <div class="col-sm-4">
+		<div class="input-group">
+		  <span class="input-group-addon">@</span>
+		  <input type="text" class="form-control" id="via" placeholder="twitterdev">
+		</div>      
+    </div>
+    <label for="related" class="col-sm-2 control-label">Related</label>
+    <div class="col-sm-4">
+		<div class="input-group">
+		  <span class="input-group-addon">@</span>
+		  <input type="text" class="form-control" id="related" placeholder="rchoi,beardigsit">
+		</div>      
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default" onclick="TweetQuote.generateHtml();return false;">Generate Web Intent</button>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+
+	<div class="result">
+	    <p>Copy the below code into your page...</p>
+		<div class="zero-clipboard">
+			<span class="btn-clipboard copy-button" data-clipboard-text="Copy Me!" data-toggle="tooltip" data-placement="top" title="Copied">Copy</span>
+		</div>
+		<pre id="result_intent_code" class="code">
+		</pre>
+	    <p>... and it will generate the below result.</p>
+		<div id="result_intent_example" class="highlight">
+		</div>
+	</div>
+
+    </div>
+  </div>
+</form>
+
+		</p>
+		
+	</div>
+	<div class="col-sm-4 hidden-sm hidden-xs">
+		<div class="panel panel-default">
+		  <div class="panel-body">
+		    <img src="images/tweetquotes/market.jpg" width="100%">
+		  </div>
+		</div>
+	</div>
+</div>
+
+	  </div>
+	  <div class="walkthrough-nav">
+			<a class="btn btn-md btn-default hidden-xs" href="#carousel-example-generic" role="button" data-slide="prev"><i class="fa fa-chevron-left fa-2 "></i>&nbsp; Return to Previous</a>
+			<a class="btn btn-md btn-primary pull-right" href="#carousel-example-generic" role="button" data-slide="next">Step 3: Compose a Twitter Card &nbsp;<i class="fa fa-chevron-right fa-2 "></i></a>
+      </div>
+    </div>
+    
+    <div class="item">
+      <h1>Step 3: Compose a Twitter Card</h1>
+      <div class="walkthrough-body">
+<div class="row">
+	<div class="col-sm-8">
+	
+		<p class="lead">Twitter Cards bring rich photos and summary to a bigger audience.</p>
+	
+		<p>When your readers Tweet links to your articles, their Tweets will also have the photo and summary you specify.</p>
+
+		<p>Add the below HTML to the <code>HEAD</code> section of your website:</p>
+
+			<div class="zero-clipboard">
+				<span class="btn-clipboard copy-button" data-clipboard-text="Copy Me!" data-toggle="tooltip" data-placement="top" title="Copied">Copy</span>
+			</div>
+
+			<pre class="code">&lt;meta name="twitter:card" content="summary_large_image" /&gt;
+&lt;meta name="twitter:site" content="@flickr" /&gt;
+&lt;meta name="twitter:title" content="publ(ic) mark(et)" /&gt;
+&lt;meta name="twitter:description" content="Pike Place Market  Seattle, WA USA" /&gt;
+&lt;meta name="twitter:image" content="http://farm4.staticflickr.com/3361/3433069736_7193f22ab4_z.jpg" /&gt;
+&lt;meta name="twitter:url" content="https://www.flickr.com/photos/secret_canadian/3433069736//" /&gt;
+</pre>
+
+		<p>For advanced options, read the <a href="https://dev.twitter.com/cards/overview" target="_target">Twitter Card Documentation</a>.</p>
+		
+		
+	</div>
+	<div class="col-sm-4 hidden-sm hidden-xs">
+		<div class="panel panel-default">
+		  <div class="panel-body">
+		    <img src="images/tweetquotes/card_sample.png" width="100%">
+		  </div>
+		</div>
+	</div>
+</div>
+
+	  </div>
+	  <div class="walkthrough-nav">
+			<a class="btn btn-md btn-default hidden-xs" href="#carousel-example-generic" role="button" data-slide="prev"><i class="fa fa-chevron-left fa-2 "></i>&nbsp; Return to Previous</a>
+			<a class="btn btn-md btn-primary pull-right" href="#carousel-example-generic" role="button" data-slide="next">Step 4: Activate your Twitter Card &nbsp;<i class="fa fa-chevron-right fa-2 "></i></a>
+      </div>
+    </div>
+    
+    <div class="item">
+      <h1>Step 4: Activate your Twitter Card</h1>
+      <div class="walkthrough-body">
+
+<div class="row">
+	<div class="col-sm-9">
+
+<p class="lead">Use the <a href="https://cards-dev.twitter.com/validator" target="_target">Card Validator</a> to preview and activate your Twitter Card.</p>
+
+		<p>
+		Once you are satisfied with the photo and the content of your Card, you must request approval on the Validator by filling out your site and user details.
+		</p>
+
+		<p>
+		A few more notes about Card approval:
+		</p>
+		
+		<p>
+		<ol>
+			<li>Cards are whitelisted on a Card-per-domain basis. 
+			<li>Different Card types need to be approved separately for the same domain.
+			<li>Card approval is typically granted within minutes of submission.
+		</ol>
+		</p>
+
+<!--
+		<p>
+		<a href="https://cards-dev.twitter.com/validator" target="_target" class="btn btn-default">Try Card Validator</a>
+		</p>
+-->
+
+	</div>
+
+	<div class="col-sm-3 hidden-sm hidden-xs">
+		<div class="panel panel-default">
+		  <div class="panel-body">
+		    <img src="images/tweetquotes/card_validator2.png" width="100%">
+		  </div>
+		</div>
+	</div>
+	
+</div>
+
+	  </div>
+	  <div class="walkthrough-nav">
+			<a class="btn btn-md btn-default hidden-xs" href="#carousel-example-generic" role="button" data-slide="prev"><i class="fa fa-chevron-left fa-2 "></i>&nbsp; Return to Previous</a>
+			<a class="btn btn-md btn-primary pull-right" href="#carousel-example-generic" role="button" data-slide="next">Step 5: Optimize performance on Twitter Analytics &nbsp;<i class="fa fa-chevron-right fa-2 "></i></a>
+      </div>
+    </div>
+    
+    <div class="item">
+      <h1>Step 5: Optimize performance on Twitter Analytics</h1>
+      <div class="walkthrough-body">
+
+<div class="row">
+	<div class="col-sm-9">
+
+<p class="lead"><a href="https://analytics.twitter.com" target="_target">Twitter Analytics</a> provides a 360 view of your website integration with Twitter.</p>
+
+		<p>
+		The Cards Dashboard summarizes your integration's performance in terms of website traffic, engagement and app installs (if applicable). 
+		Additionally, you can see which content is the most successful, and the influencers who help you reach the most people.   
+		</p>
+		
+		<p>After logging into <a href="https://analytics.twitter.com" target="_target">Twitter Analytics</a>, click on the "Twitter Cards" link at the top to
+		get started. 
+		</p>
+
+		<div class="panel panel-default">
+		  <div class="panel-body">
+		    <img src="images/tweetquotes/analytics_header.png">
+		  </div>
+		</div>
+
+		<p>
+		Experiment with different Card types, photos and text summaries to see how they perform. Then optimize your tweet quotes and Cards for better distribution and traffic back to your site. 
+		</p>
+
+
+	</div>
+
+	<div class="col-sm-3 hidden-sm hidden-xs">
+		<div class="panel panel-default">
+		  <div class="panel-body">
+		    <img src="images/tweetquotes/analytics.png" width="100%">
+		  </div>
+		</div>
+	</div>
+	
+	  </div>
+	  <div class="walkthrough-nav">
+			<a class="btn btn-md btn-default hidden-xs" href="#carousel-example-generic" role="button" data-slide="prev"><i class="fa fa-chevron-left fa-2 "></i>&nbsp; Return to Previous</a>
+			<a class="btn btn-md btn-primary page-scroll pull-right" href="#usecases" role="button" data-slide="next">See Use Cases &nbsp;<i class="fa fa-chevron-down fa-2 "></i></a>
+      </div>
+    </div>
+    
+  </div>
+
+</div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="usecases" class="section even-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>
+                    	<img src="images/bird.png" height="30" style="margin-top: -8px;">
+                    	Use Cases
+                	</h1>
+                    <p>
+                    	Below are examples of publishers using tweet quotes that are contextually relevant and ideal for sharing.
+                	</p>
+					<div class="row">
+					  <div class="col-sm-6 col-md-6">
+					    <div class="thumbnail">
+					      <a href="http://www.latimes.com/sports/lakers/la-sp-kobe-bryant-lakers-20141028-story.html#page=1" target="_target">
+					      	<img src="images/tweetquotes/example_latimes.png" alt="...">
+					      </a>
+					      <div class="caption">
+					        <h4>LA Times: Sharelines</h4>
+					        <p><a href="http://www.latimes.com/sports/lakers/la-sp-kobe-bryant-lakers-20141028-story.html#page=1" class="btn btn-default" role="button" target="_target">View Website</a>
+					      </div>
+					    </div>
+					  </div>
+					  <div class="col-sm-6 col-md-6">
+					    <div class="thumbnail">
+					      <a href="http://www.nytimes.com/interactive/2014/07/17/world/europe/maps-of-the-crash-of-malaysian-airlines-flight-mh17.html?_r=0" target="_target">
+					      	<img src="images/tweetquotes/example_nytimes.png" alt="...">
+				          </a>
+					      <div class="caption">
+					        <h4>NY Times: Malaysia Airlines Coverage</h4>
+					        <p><a href="http://www.nytimes.com/interactive/2014/07/17/world/europe/maps-of-the-crash-of-malaysian-airlines-flight-mh17.html?_r=0" class="btn btn-default" role="button" target="_target">View Website</a>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+                    </p>
+                    <p>
+                    	Again, the code you need to get started (including this recipe) can be found at our
+                    	<a href="https://github.com/twitterdev/twitterdev.github.io" target="_target">GitHub repo</a>. 
+                    </p>
+					<center>
+                    	<a class="btn btn-lg btn-primary page-scroll" href="http://dev.twitter.com" target="_target">Read the documentation &nbsp;<i class="fa fa-chevron-right fa-2 "></i></a>
+                	</center>
+                	
+                	<br><br>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+    
+    <!-- Copy code -->
+    <script src="js/ZeroClipboard.js"></script>
+
+    <script src="js/script.js"></script>
+    
+    <script language="JavaScript1.2">
+    	$( document ).ready(function(){
+    		$('.result').hide();
+    	});
+    </script>
+
+</body>
+
+</html>

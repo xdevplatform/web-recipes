@@ -1,0 +1,36 @@
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
+
+  div.thumb {
+    width: 100%; /* or whatever is required */
+    height: 200px;
+    text-align: center; /* ensures the image is always in the h-middle */
+    overflow: hidden; /* hide the cropped portion */
+    xmargin: 6px 0px;
+    border: 1px solid #ccc;
+  }
+	
+  /* Set the image to fill its parent and make transparent */
+  img.thumb {
+    position: relative; /* allows repositioning */
+    margin-top: 0%;
+    margin-left: -200%; /* magic! */  
+    left: 100%; /* move the whole width of the image to the right */
+    width: 100%;
+  }
